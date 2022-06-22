@@ -1,7 +1,7 @@
 services:
   - type: web
     name: sveltekit-static
-    env: static
+    env: node
     buildCommand: npm install && npm run build
     healthCheckPath: /status
     staticPublishPath: build
