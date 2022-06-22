@@ -4,4 +4,4 @@ services:
     env: node
     buildCommand: npm install && npm run build
     healthCheckPath: /status
-    staticPublishPath: build
+    startCommand: npm run start
